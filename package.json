@@ -1,0 +1,6 @@
+{
+  "name":"claimguide-saas","private":true,"version":"1.0.0","type":"module",
+  "scripts":{"dev":"concurrently \"vite --host 0.0.0.0\" \"node --watch server/index.js\"","build":"vite build","start":"node server/index.js","seed":"node server/seed.js"},
+  "dependencies":{"@vitejs/plugin-react":"latest","better-sqlite3":"latest","compression":"latest","cors":"latest","dotenv":"latest","express":"latest","express-session":"latest","helmet":"latest","jsonwebtoken":"latest","lucide-react":"latest","multer":"latest","passport":"latest","passport-facebook":"latest","passport-google-oauth20":"latest","react":"latest","react-dom":"latest","vite":"latest"},
+  "devDependencies":{"concurrently":"latest"}
+}

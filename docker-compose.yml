@@ -1,0 +1,9 @@
+services:
+  claimguide:
+    build: .
+    ports: ["4000:4000"]
+    env_file: .env
+    volumes:
+      - claimguide_data:/app/data
+volumes:
+  claimguide_data:
